@@ -1,5 +1,6 @@
-#!/usr/bin/env python3
-import sys
+#!/usr/bin/python3
 
-for arg in sys.argv[1:]:
-    print(arg)
+import sys
+print(sys.argv)
+for i in range(1, len(sys.argv)):
+    print(int(sys.argv[i]))
